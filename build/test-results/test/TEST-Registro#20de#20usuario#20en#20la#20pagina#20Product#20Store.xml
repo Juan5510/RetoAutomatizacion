@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Registro de usuario en la pagina Product Store" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-09-23T14:52:30" hostname="CHMEPPF0I6GES" time="11.083">
+  <properties/>
+  <testcase name="Registro de Juan en Product Store" classname="Registro de usuario en la pagina Product Store" time="11.083">
+    <failure message="java.lang.AssertionError: &#10;Expected: &quot;Sign up successful.&quot;&#10;     but: was &quot;This user already exist.&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &quot;Sign up successful.&quot;
+     but: was &quot;This user already exist.&quot;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:301)
+	at stepdefinitions.RegistroProductStore.seCompletaElRegistroDeManeraExitosa(RegistroProductStore.java:48)
+	at ✽.se completa el registro de manera exitosa Sign up successful.(src/test/resources/features/prueba.feature:17)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 4884
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sep 23, 2022 9:52:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Registro de Juan en Product Store
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then is logged should be 'Sign up successful.'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected: "Sign up successful." but: was "This user already exist."
+]]></system-err>
+</testsuite>

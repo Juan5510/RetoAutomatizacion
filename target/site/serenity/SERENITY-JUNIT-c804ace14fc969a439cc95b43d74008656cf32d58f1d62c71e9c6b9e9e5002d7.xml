@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Registro de usuario en la pagina Product Store" skipped="0" tests="1" time="10.19" timestamp="2022-09-23 09:52:30"><testcase name="Registro de Juan en Product Store"><failure message="&#10;Expected: &quot;Sign up successful.&quot;&#10;     but: was &quot;This user already exist.&quot;" type="java.lang.AssertionError">
+Expected: "Sign up successful."
+     but: was "This user already exist."</failure><system-err>
+Expected: "Sign up successful."
+     but: was "This user already exist."&#13;
+stepdefinitions.RegistroProductStore.seCompletaElRegistroDeManeraExitosa(RegistroProductStore.java:48)&#13;
+✽.se completa el registro de manera exitosa Sign up successful.(src/test/resources/features/prueba.feature:17)&#13;
+</system-err></testcase></testsuite>
